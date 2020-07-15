@@ -27,7 +27,7 @@
             android:src="@drawable/hospital"
             android:layout_below="@id/title"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="40dp" />
+            android:layout_marginLeft="20dp" />
         <EditText
             android:layout_width="178dp"
             android:layout_height="32dp"
@@ -49,8 +49,8 @@
 
     </RelativeLayout>
     <ListView
-        android:id="@+id/list_rs"
+        android:id="@+id/list_rumah"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"></ListView>
 
 </LinearLayout>

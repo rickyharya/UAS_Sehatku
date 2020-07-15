@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="30dp">
+    <TextView
+        android:id="@+id/nama_dokter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nama"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/nohp_dokter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nohp"
+        android:layout_below="@id/nama_dokter"/>
+
+
+</RelativeLayout>

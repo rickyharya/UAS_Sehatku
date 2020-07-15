@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Kategori"
-            android:layout_marginLeft="35dp"
+            android:layout_marginLeft="30dp"
             android:background="@drawable/circle_button" />
         <Button
             android:layout_width="wrap_content"
@@ -56,10 +56,17 @@
             android:layout_marginLeft="35dp"
             android:background="@drawable/circle_button" />
     </LinearLayout>
+
     <ListView
+        android:id="@+id/list_dok"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="10dp"/>
+        android:layout_height="546dp"
+        android:layout_marginTop="10dp"></ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap untuk melihat schadule"
+        android:textAlignment="center"/>
 
 
 </LinearLayout>
